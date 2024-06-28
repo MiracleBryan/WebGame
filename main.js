@@ -25,15 +25,15 @@ window.addEventListener('resize', () => {
     planeX = canvas.width;
 });
 const background = new Image();
-background.src = 'assets/background.png';
+background.src = '../assets/background.png';
 const boat = new Image();
-boat.src = 'assets/boat.png';
+boat.src = '../assets/boat.png';
 const parachutistImg = new Image();
-parachutistImg.src = 'assets/parachutist.png';
+parachutistImg.src = '../assets/parachutist.png';
 const plane = new Image();
-plane.src = 'assets/plane.png';
+plane.src = '../assets/plane.png';
 const sea = new Image();
-sea.src = 'assets/sea.png';
+sea.src = '../assets/sea.png';
 background.onload = () => {
     animate();
 };
