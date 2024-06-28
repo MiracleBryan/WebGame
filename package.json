@@ -8,6 +8,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d deploy"
   }
 }
